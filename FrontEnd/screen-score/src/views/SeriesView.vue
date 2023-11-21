@@ -1,7 +1,9 @@
 <script setup>
 import SerieCard from '../components/SerieCard.vue'
+import Header from '../components/Header.vue'
 </script>
 <template>
+    <Header />
     <main>
 
         <section class="py-5 text-center container">
