@@ -1,8 +1,8 @@
 <script setup>
 import SeriesList from '../components/SeriesList.vue'
-import Header from '../components/Header.vue'
+import HeaderUser from '../components/HeaderUser.vue'
 </script>
 <template>
-    <Header />
+    <HeaderUser />
     <SeriesList />
 </template>

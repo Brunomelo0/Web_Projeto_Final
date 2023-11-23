@@ -1,4 +1,5 @@
 <script setup>
+import {RouterLink} from 'vue-router'
 import HeaderLogin from '../components/HeaderLogin.vue' 
 </script>
 <template>
@@ -11,9 +12,9 @@ import HeaderLogin from '../components/HeaderLogin.vue'
             <form action="">
                 <input type="text" name="nome" placeholder="Nome de usuário">
                 <input type="password" name="senha" placeholder="Senha">
-                <button type="submit" class="btn btn-warning">Entrar</button>
+                <router-link to="/homeuser"><button type="submit" class="btn btn-warning">Entrar</button></router-link>                        
             </form>
-            <p>Ainda não tem uma conta?</p>
+            <p>Ainda não tem uma conta?<router-link to="/signup">Cadastre-se</router-link></p>
         </div>
     </section>
 </template>
@@ -61,6 +62,7 @@ import HeaderLogin from '../components/HeaderLogin.vue'
     outline: none;
     border-radius: 8px;
     padding-left: 10px;
+    width: 100%;
 }
 
 .login img {
