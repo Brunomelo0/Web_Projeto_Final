@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router'
         </form>
         <div class="text-end">
           <router-link to="/login"><button type="button" class="btn btn-outline-light me-2">Login</button></router-link>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+          <router-link to="/signup"><button type="button" class="btn btn-warning">Sign-up</button></router-link>
         </div>
       </div>
     </div>

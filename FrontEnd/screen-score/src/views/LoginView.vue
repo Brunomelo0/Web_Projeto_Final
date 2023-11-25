@@ -72,4 +72,5 @@ import HeaderLogin from '../components/HeaderLogin.vue'
 .input::placeholder {
     color: white;
     font-size: 14px;
-}</style>
+}
+</style>

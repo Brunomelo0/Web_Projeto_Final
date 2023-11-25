@@ -1,6 +1,25 @@
 <script setup>
 import HeaderUser from '../components/HeaderUser.vue'
+import Amigo from '../components/Amigo.vue'
+import PerfilStatus from '../components/PerfilStatus.vue'
+import NavbarAmigos from '../components/NavbarAmigos.vue';
 </script>
 <template>
     <HeaderUser />
+    <div class="container p-3">
+        <PerfilStatus />
+        <NavbarAmigos />
+    </div>
+    <div class="container">
+        <h2>Seus amigos</h2>
+        <hr />
+        <div class="row">
+            <Amigo />
+            <Amigo />
+            <Amigo />
+            <Amigo />
+            <Amigo />
+            <Amigo />
+        </div>
+    </div>
 </template>
