@@ -11,7 +11,7 @@
                 <p class="card-text">Nome</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <router-link to="/serie"><button type="button" class="btn btn-warning">Ver</button></router-link>
+                        <router-link to="/serieuser"><button type="button" class="btn btn-warning">Ver</button></router-link>
                     </div>
                 </div>
             </div>

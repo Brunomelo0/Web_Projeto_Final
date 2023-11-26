@@ -4,7 +4,7 @@
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nome do Filme/Série</h5>
-                <a href="#" class="btn btn-warning">Ver</a>
+                <router-link to="/review" class="btn btn-warning">Ver</router-link>
             </div>
         </div>
     </div>

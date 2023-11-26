@@ -5,7 +5,7 @@
                     <img class="rounded-circle bg-body-tertiary fotoperfil" src="../assets/perfil.png" alt="">
                     <div class="d-flex flex-column mb-3 p-3">
                         <h3 class="username p-2">UserName</h3>
-                        <router-link to="/alterarinfo"><button type="button" class="btn btn-warning btn-sm w-75 p-2 editar-perfil">Editar Perfil</button></router-link>
+                        <router-link to="/alterarinfomod"><button type="button" class="btn btn-warning btn-sm w-75 p-2 editar-perfil">Editar Perfil</button></router-link>
                     </div>
                 </div>
                 <div class="col p-2">

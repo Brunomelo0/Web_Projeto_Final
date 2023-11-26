@@ -11,7 +11,7 @@ import HeaderLogin from '../components/HeaderLogin.vue'
             <form action="">
                 <input type="text" name="nome" placeholder="Digite um nome de usuário">
                 <input type="password" name="senha" placeholder="Digite uma senha">
-                <router-link to="/homeuser"><button type="submit" class="btn btn-warning">Cadastrar</button></router-link>                        
+                <router-link to="/homemod"><button type="submit" class="btn btn-warning">Cadastrar</button></router-link>                        
             </form>
         </div>
     </section>

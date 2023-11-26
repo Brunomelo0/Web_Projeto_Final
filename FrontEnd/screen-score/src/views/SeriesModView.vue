@@ -1,8 +1,8 @@
 <script setup>
+import SeriesListMod from '../components/SeriesListMod.vue'
 import HeaderMod from '../components/HeaderMod.vue'
-import HomeCarousel from '../components/HomeCarousel.vue'
 </script>
 <template>
     <HeaderMod />
-    <HomeCarousel />
+    <SeriesListMod />
 </template>

@@ -1,8 +1,8 @@
 <script setup>
-import FilmesList from '../components/FilmesList.vue'
+import FilmesListUser from '../components/FilmesListUser.vue'
 import HeaderUser from '../components/HeaderUser.vue'
 </script>
 <template>
     <HeaderUser />
-    <FilmesList />
+    <FilmesListUser />
 </template>
