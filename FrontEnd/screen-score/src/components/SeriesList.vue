@@ -3,6 +3,7 @@ import SerieCard from './SerieCard.vue'
 </script>
 <template>
     <main>
+        <!--Substituir os SerieCard colocados manualmente por uma estrutura de repeticao (v-for) q imprima as series do back-->
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
@@ -12,7 +13,6 @@ import SerieCard from './SerieCard.vue'
         </section>
         <div class="album py-5 bg-body-tertiary">
             <div class="container">
-                <!--Inserir foto e nome de filmes do banco de dados nos cards-->
                 <div class="drama-series pb-5">
                     <h2>Drama</h2>
                     <hr />
