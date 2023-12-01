@@ -5,6 +5,7 @@ import PerfilStatus from '../components/PerfilStatus.vue'
 import NavbarAmigos from '../components/NavbarAmigos.vue';
 </script>
 <template>
+    <!--Substituir Amigo colocados manualmente por uma estrutura de repeticao (v-for) q imprima os amigos do back-->
     <HeaderUser />
     <div class="container p-3">
         <PerfilStatus />
