@@ -1,5 +1,5 @@
 {
-  "name": "screen-score-strapi",
+  "name": "back-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -25,7 +25,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "e5eea57f-4af8-4bfb-b9ca-8b06316f1103"
+    "uuid": "735b4626-46ad-45ff-ac06-01416abce855"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",

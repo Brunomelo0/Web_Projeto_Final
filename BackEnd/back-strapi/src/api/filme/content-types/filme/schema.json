@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filmes",
+  "info": {
+    "singularName": "filme",
+    "pluralName": "filmes",
+    "displayName": "Filme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "diretor": {
+      "type": "string",
+      "required": true
+    },
+    "capa": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "data_lancamento": {
+      "type": "date",
+      "required": true
+    },
+    "sinopse": {
+      "type": "text",
+      "required": true
+    },
+    "genero": {
+      "type": "string",
+      "required": true
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "filmes"
+    }
+  }
+}
